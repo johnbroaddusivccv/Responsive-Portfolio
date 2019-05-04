@@ -1,0 +1,24 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^12.1.0",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnbroaddusivccv/Responsive-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnbroaddusivccv/Responsive-Portfolio/issues"
+  },
+  "homepage": "https://github.com/johnbroaddusivccv/Responsive-Portfolio#readme"
+}
