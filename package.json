@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "start": "npm run sass && node server.js",
+    "sass": "node-sass scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
