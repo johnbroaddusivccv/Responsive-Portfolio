@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "node": "^12.1.0",
     "node-sass": "^4.12.0"
   },
