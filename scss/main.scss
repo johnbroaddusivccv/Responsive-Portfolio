@@ -27,7 +27,7 @@ font-size: 4rem;
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5);
+        background: rgba(lighten($primary-color, 2), 0.33);
     }
 }
 
@@ -117,7 +117,7 @@ main {
         border: 3px #fff solid;
 
         &:hover {
-            opacity: 0.5;
+            // opacity: 0.15;
             border-color: $secondary-color;
             @include easeOut;
         }
